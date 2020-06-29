@@ -1,0 +1,661 @@
+
+body {
+	padding: 0 ;
+	margin: 0;
+}
+
+.toggle .tabs .tab {
+  cursor: pointer;
+}
+
+.toggle .panels .panel {
+  display: none;
+}
+
+.toggle .panels .panel:first-child {
+  display: block;
+}
+
+
+.medeletro-pagina {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	max-width: 920px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+b {
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+p {
+	color: white;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+div > p:last-of-type {
+	margin: 0;
+}
+
+div > h1:last-of-type,
+div > h1:first-of-type {
+	margin: 0;
+}
+
+
+section#section__temas h1,
+section#section__imedFeitoSobMedidaParaOSeuObjetivo h1,
+section#section__informacoesTecnicas h1,
+section#section__valores h1 {
+    font-size: 32px;
+    color: #032333;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 30px;
+    display: block;
+    background-color: #30bf8f;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: fit-content;
+    z-index: 9999;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------- SECTION HOME -------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+
+#section__home {
+	height: calc(100vh - 145px);
+	background: url(../imgs/imagem-home.png) #032333;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: bottom;
+}
+
+section#section__home h1 {
+    color: white;
+	letter-spacing: 5px;
+	text-align: center;
+	text-shadow: 0px 1px 12px rgba(0,0,0,0.3);
+	margin-bottom: -5px;
+	font-size:36px;
+	font-weight: 200;
+}
+
+section#section__home h2 {
+    color: white;
+    font-size: 160px;
+    font-weight: 800;
+    margin: 0;
+    text-shadow: 0px 1px 12px rgba(0,0,0,0.3);
+}
+
+
+section#section__home a {
+	width: 293px;
+	padding: 20px;
+	border-radius: 100px;
+	background-color: #30bf8f;
+	font-size: 29px;
+	color: #193645;
+	text-align: center;
+	box-shadow: 0px 1px 22px rgba(0,0,0,0.2);
+	text-decoration: none solid rgb(25, 54, 69);
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+section#section__home a:hover { 
+	background-color: #20a87b;
+	transition: .5s;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------ INFOS PRODUTO -------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+
+section#section__infosProduto {
+    background: #032333;
+    /*padding-bottom: 70px;*/
+}
+
+section#section__infosProduto img.infosProdutoGif {
+    margin: 0 auto;
+    display: block;
+}
+
+section#section__infosProduto h3 {
+	font-size: 30px;
+	line-height: 44px;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+}
+
+section#section__infosProduto .box__infosProduto {
+    max-width: 635px;
+    background-color: #193645;
+    display: flex;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+section#section__infosProduto .box__infosProduto .icone,
+section#section__infosProduto .box__infosProduto .texto {
+    min-height: 106px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+section#section__infosProduto .box__infosProduto .texto {
+	color: white;
+	font-size: 16px;
+	text-align: justify;
+	font-weight: 200;
+	line-height: 26px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 10px 30px;
+}
+
+section#section__infosProduto .box__infosProduto .icone {
+	background: #30bf8f;
+	width: 54px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 26px 30px;
+}
+
+section#section__infosProduto .box__infosProduto .icone img.icone__doutor {
+    margin-left: -7px;
+}
+
+
+img.infosProdutoGif{
+	max-width: 	100%;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------ TEMAS -------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+
+section#section__temas {
+    background: #032333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+section#section__temas:before {
+    content: '';
+    width: 100%;
+    height: 20px;
+    display: block;
+    position: relative;
+    background: #032333;
+    transform: rotate(-1deg);
+    top: -25px;
+    box-shadow: 1px 15px 11px #00000021;
+}
+
+
+
+section#section__temas h1 {
+    margin-top: -60px;
+}
+
+section#section__temas .container .linha  {
+	display: flex;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+section#section__temas .container .linha ul li {
+	list-style: none;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 36px;
+}
+
+section#section__temas .container .linha ul li:before {
+	content: '> ';
+}
+
+
+section#section__temas .container .linha ul li:before {
+    content: ' ';
+    background: url(../imgs/icone-seta-direita.svg);
+    width: 30px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------- Imed - Feito Sob Medida Para seu Objetivo --------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+
+h4 {
+    margin-bottom: 20px;
+}
+
+section#section__imedFeitoSobMedidaParaOSeuObjetivo{
+	background: #fafafa;
+	box-shadow: 0px -8px 100px rgba(0,0,0,0.2);
+	padding-bottom: 100px;
+}
+
+section#section__imedFeitoSobMedidaParaOSeuObjetivo h1 {
+    margin-top: -35px;
+}
+
+section#section__imedFeitoSobMedidaParaOSeuObjetivo h4,
+section#section__imedFeitoSobMedidaParaOSeuObjetivo p {
+	color: #032333;
+}
+
+section#section__imedFeitoSobMedidaParaOSeuObjetivo p {
+	line-height: 32px;
+}	
+
+.p1 {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+
+.box__imedFeitoSobMedidaParaOSeuObjetivo {
+    width: 291px;
+    height: 275px;
+    border-radius: 10px;
+    background: #193645;
+    border: 5px solid #7be8c4;
+    box-shadow: 0px 1px 22px rgba(0,0,0,0.05);
+    align-items: center;
+    margin-right: 20px;
+}
+
+.box__imedFeitoSobMedidaParaOSeuObjetivo .icone,
+.box__imedFeitoSobMedidaParaOSeuObjetivo .texto {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.box-container .box__imedFeitoSobMedidaParaOSeuObjetivo:last-of-type {
+	margin-right: 0;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box__imedFeitoSobMedidaParaOSeuObjetivo .icone img {
+	margin-bottom: 20px;	
+}
+
+
+
+.box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
+	color: #fff !important;
+    text-align: center !important;
+    margin: 0;
+	font-size: 20px;
+}
+
+.box__imedFeitoSobMedidaParaOSeuObjetivo .texto p.reduzido {
+	font-size: 16px;
+}
+
+.box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
+	line-height: 23px !important;
+}
+	
+img.icone__oEscritorQueOsConfeccionou {
+    margin-bottom: 20px !important;
+    margin-top: 13px;
+}
+
+img.icone__voce {
+    width: 86px;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+img.icone__livroEletronico {
+    margin: 9px !important;
+}
+
+
+
+div#box__imedFeitoSobMedidaParaOSeuObjetivo1::before {
+    content: '1';
+}
+
+div#box__imedFeitoSobMedidaParaOSeuObjetivo2::before {
+    content: '2';
+}
+
+div#box__imedFeitoSobMedidaParaOSeuObjetivo3::before {
+    content: '3';
+}
+
+div.box__imedFeitoSobMedidaParaOSeuObjetivo::before {
+	border-radius: 5px;
+    background: #20a87b;
+    color: #ffffff;
+    content: '1';
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------- Informacoes Tecnicas  --------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+
+#section__informacoesTecnicas {
+	/*background: #ffffff;*/
+}
+
+section#section__informacoesTecnicas h1 {
+    margin-top: -35px;
+}
+
+.box__informacoesTecnicas {
+    display: flex;
+    height: 500px;
+    margin: 70px 0;
+    margin-bottom: 140px;
+}
+
+.coluna__imagem {
+    width: 100%;
+    background: #30bf8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.coluna__texto {
+	background: #193645;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    background: #214152;
+    border-top-right-radius: 10px;
+}
+
+
+.tabs .tab {
+    padding: 15px;
+    color: #ffffff;
+}
+
+.tabs .tab.active {
+    background: #193645;
+}
+
+.panels {
+    padding: 0 35px;
+    margin-bottom: 40px;
+    width: 580px;
+}
+
+.panel hr {
+    opacity: 0.1;
+}
+
+.tab img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+span.windows,
+span.macOS,
+span.dispositivosMoveis {
+    position: relative;
+    top: 2px;
+}
+
+
+#section__informacoesTecnicas .box__botoes {
+    display: flex;
+}
+#section__informacoesTecnicas a.btn_informacoesTecnicas {
+    padding: 15px 30px;
+    border-radius: 100px;
+    background-color: #30bf8f;
+    font-size: 16px;
+    color: #193645;
+    text-align: center;
+    box-shadow: 0px 1px 22px rgba(0,0,0,0.2);
+    text-decoration: none solid rgb(25, 54, 69);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#section__informacoesTecnicas a:hover { 
+	background-color: #20a87b;
+	transition: .5s;
+}
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------- Valores  --------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------*/
+
+
+#section__valores {
+	box-shadow: 0px -13px 22px rgba(0,0,0,0.07);
+}
+
+section#section__valores h1 {
+    margin-top: -35px;
+}
+
+section#section__valores .box-container {
+    margin-top: 70px;
+}
+
+.box__valores {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 20px;
+}
+
+.box__valores:last-of-type {
+    margin-right: 0 !important;
+}
+
+.box__valores .titulo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box__valores .texto {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__valores .texto p {
+	margin: 2px;
+}
+
+.box__valores .texto p.grande{
+	font-size: 80px;
+	margin: 15px;
+    font-weight: 900;
+}
+
+
+
+.box__valores .texto p.pequeno {
+	font-size: 13px;
+	line-height: 18px;
+	padding: 15px;
+}
+
+
+.box__valores .texto p.pequeno:first-of-type {
+	margin-bottom: 12px;
+}
+
+.box__valores .texto p.pequeno:last-of-type {
+	margin-top: 25px;
+}
+
+.box__valores .texto p.medio {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.box__valores .texto p {
+	color: gray;
+}
+
+
+.box__valores .titulo h5 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	margin: 0 !important;
+}
+
+
+
+
+#box__valores1 .texto p {
+	color: #487b96;
+}
+
+#box__valores2 .texto p {
+	color: #214152;
+}
+
+#box__valores3 .texto p {
+	color: #0a557d;
+}
+
+
+
+#box__valores1 .titulo {
+    background: #487b96;
+    padding: 25px;
+
+}
+
+#box__valores1 .texto {
+    border: 3px solid #487b96;
+}
+
+
+
+
+#box__valores2 .titulo {
+    background: #214152;
+    padding: 25px;
+
+}
+
+#box__valores2 .texto {
+    border: 3px solid #214152;
+}
+
+
+
+#box__valores3 .titulo {
+    background: #0a557d;
+    padding: 25px;
+
+}
+
+#box__valores3 .texto {
+    border: 3px solid #0a557d;
+}
+
+
+section#section__valores a {
+    width: 170px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #30bf8f;
+    font-size: 22px;
+    color: #193645;
+    text-align: center;
+    text-decoration: none solid rgb(25, 54, 69);
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    margin: 30px auto;
+}
+
+
+section#section__valores a:hover { 
+	background-color: #20a87b;
+	transition: .5s;
+}
+
