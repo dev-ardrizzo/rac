@@ -98,11 +98,6 @@ html {
   }
   
       .center-mobile:before {
-          /* background: -webkit-linear-gradient(bottom, #032333, transparent 15%, transparent 85%, #032333);
-           background: -o-linear-gradient(bottom, #032333, transparent 15%, transparent 85%, #032333);
-           background: linear-gradient(to top, #032333, transparent 15%, transparent 85%, #032333);
-          content: '';
-          background: linear-gradient(0deg, #032333f2 35%, transparent); */
           position: absolute;
           display: block;
           width: 100%;
@@ -113,7 +108,6 @@ html {
   
   
       .center-mobile {
-          /* background: #032333f2   ; */
           width: 100%;
           right: unset;
           display: flex;
@@ -150,10 +144,10 @@ html {
           }
   
   
-        .rac-pagina .box__valores {
+        /* .rac-pagina .box__valores {
               width: 80% !important;
               height: auto !important;
-          }
+          } */
   
   
         .rac-pagina div#box__valores1 .texto,
@@ -261,7 +255,7 @@ html {
   @media screen and (max-width: 767px) {
       section#section__home {
           height: auto !important;
-          padding: 100px 30px !important;       
+          padding: 100px 45px !important;       
       }    
   }
   
@@ -287,14 +281,14 @@ html {
   }
   */
   
-  
-  
- .rac-pagina #nextSection {
-      width: 120px;
-      position: absolute;
-      opacity: 0.3;
-      bottom: 20px;
-  }
+    
+    
+    .rac-pagina #nextSection {
+        width: 120px;
+        /* position: absolute; */
+        opacity: 0.3;
+        /* bottom: 20px; */
+    } 
   
   section#section__home .medeletro__logo {
       max-width: 320px;
@@ -302,8 +296,8 @@ html {
   }
   
      .rac-pagina #section__home {
-          height: calc(100vh - 145px);
-          background: url(../imgs/home-bg.jpg) #032333;
+          height: 100vh;
+          background: url(../imgs/home-bg.jpg);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -1257,7 +1251,7 @@ html {
       }
   
      .rac-pagina section#section__temas {
-          background: #032333;
+          /* background: #032333; */
           display: flex;
           align-items: center;
           justify-content: center;
@@ -1270,6 +1264,7 @@ html {
           display: flex;
           padding: 20px;
           margin-top: 30px;
+          margin-bottom: 40px;;
           flex-direction: column;
       }
   
@@ -1328,7 +1323,7 @@ html {
       .box__valores {
           margin-right: 0 !important;
           margin-bottom: 30px;
-          height: 427px !important;
+          /* height: 427px !important; */
       }
   
   

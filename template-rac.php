@@ -1,11 +1,17 @@
 
-	<meta charset="UTF-8">
+<?php 
+
+/* Template name: Template Rac */
+
+get_header(); ?>
+
+<meta charset="UTF-8">
 
 
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/new-style.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>-child/css/style.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>-child/css/new-style.css">
 	
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -14,12 +20,6 @@
 
 <body>
 	
-	<aside id="sidebarExemple">
-
-	</aside>
-
-	<!-- Excluir html a cima em prod -->
-
 	<div class="rac-pagina">
 	
 
@@ -58,14 +58,14 @@
 			</div>
 
 
-			<!-- <img class="medeletro__logo" src="imgs/medeletro-negativo.svg" alt=""> -->
+			<!-- <img class="medeletro__logo" src="<?php bloginfo('template_directory'); ?>-child/imgs/medeletro-negativo.svg" alt=""> -->
 
 			
 			
 			<h1>A Revisão Avançada é um programa especial, elaborado para aqueles que desejam aumentar ainda mais o seu diferencial. O objetivo é o aprofundamento em temas usualmente recomendados para estudo em casa (pela baixa frequência em provas), mas que vêm ganhando cada vez mais importância, especialmente nos concursos mais recentes. São dois módulos independentes e distintos do INTENSIVÃO.</h1>
 
 			
-			<a href="#section__infosProduto" id="nextSection"><img src="imgs/scroll-mouse-medeletro.gif" alt=""></a>
+			<a href="#section__infosProduto" id="nextSection"><img src="<?php bloginfo('template_directory'); ?>-child/imgs/scroll-mouse-medeletro.gif" alt=""></a>
 		</section>
 	
 	
@@ -73,7 +73,7 @@
 				
 			<div class="container-medeletro">
 	
-				<!-- <img  data-aos="zoom-in"  data-aos-delay="500"  data-aos-duration="1000" src="imgs/imagem-totalmente-diferente-dos-cursos-tradicionais.gif" alt="" class="infosProdutoGif"> -->
+				<!-- <img  data-aos="zoom-in"  data-aos-delay="500"  data-aos-duration="1000" src="<?php bloginfo('template_directory'); ?>-child/imgs/imagem-totalmente-diferente-dos-cursos-tradicionais.gif" alt="" class="infosProdutoGif"> -->
 				
 	
 	
@@ -83,7 +83,7 @@
 				<div class="section___row">
 					<div class="box__infosProduto">
 						<div class="icone">
-							<img src="imgs/icon-responsive.svg" alt="" class="icone__responsive">
+							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icon-responsive.svg" alt="" class="icone__responsive">
 						</div>
 						<div class="texto">
 							<span class="large">100% on-line</span>
@@ -93,7 +93,7 @@
 	
 					<div class="box__infosProduto">
 						<div class="icone">
-							<img src="imgs/icone-reader.svg" alt="" class="icone__reader">
+							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-reader.svg" alt="" class="icone__reader">
 						</div>
 						<div class="texto">
 							<span class="large">3 apostilas digitais</span>
@@ -103,7 +103,7 @@
 	
 					<div class="box__infosProduto">
 						<div class="icone">
-							<img src="imgs/icone-calendario.svg" alt="" class="icone__calendario">
+							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-calendario.svg" alt="" class="icone__calendario">
 						</div>
 						<div class="texto">
 							<span class="large">3 apostila DIGITAL</span>
@@ -112,42 +112,6 @@
 					</div>
 				</div>
 			</div>
-	
-	
-	
-			<!-- <div class="section__animation" data-aos-delay="700"  data-aos-duration="500" data-aos="fade-right">
-				<h2 class="desktop">Acesso ao MedEletro app</h2>
-				<h2 class="mobile">Acesso ao<br>MedEletro app</h2>
-				<div class="section___row">
-					<div class="box__infosProduto">
-						<div class="icone">
-							<img src="imgs/icone-video.svg" alt="" class="icone__video">
-						</div>
-						<div class="texto">
-							<p><span class="large">200h de<br> treinamento</span><br> em vídeo</p>
-						</div>
-					</div>
-	
-					<div class="box__infosProduto">
-						<div class="icone">
-							<img src="imgs/icone-ecg.svg" alt="" class="icone__imagem">
-						</div>
-						<div class="texto">
-							<span class="large">+ de 300 imagens</span>
-						</div>
-					</div>
-	
-					<div class="box__infosProduto">
-						<div class="icone">
-							<img src="imgs/icone-radio-button.svg" alt="" class="icone__radioButton">
-						</div>
-						<div class="texto">
-							<span class="large">+ de 700 exercícios</span>
-						</div>
-					</div>
-				</div>
-			</div> -->
-	
 	
 			<p>O conteúdo baixado no dispositivo de cada assinante poderá ser acessado mesmo após o encerramento da distribuição de conteúdo.</p>
 	
@@ -198,8 +162,8 @@
 				<div class="box-container">
 
 					<div class="column">
-						<h2>Preço promocional para<br>
-							contratantes do Intensivão 2019</h2>
+						<h2>Preço promocional para
+							contratantes do Intensivão 2020</h2>
 						<div class="box__valores">
 							<div class="titulo">
 								<h5>À vista</h5>
@@ -227,7 +191,7 @@
 					</div>
 
 					<div class="column">
-						<h2>Preço para demais contratantes<br>
+						<h2>Preço para demais contratantes
 							à vista no boleto bancário</h2>
 						<div class="box__valores">
 							<div class="titulo">
@@ -250,18 +214,7 @@
 				</div>
 				<p class="paragrafo">Ao comprar o módulo on-line <i><b>MEDELETRO IMED</b></i>, você estará adquirindo (embora com pagamento parcelado) a <u>COLEÇÃO COMPLETA</u>, que será disponibilizada pelo APP em 11 etapas semanais sequenciais. Após o encerramento, você mantém todo o conteúdo das apostilas digitais já baixadas em seu dispositivo.</p>
 			</div>
-		</section>
-	
-	
-	
-		<!-- -->
-		<!-- -->
-		<!-- ATUANDO AQUI -->
-		<!-- -->
-		<!-- -->
-		
-	
-	
+		</section>	
 	
 		<section id="section__imedFeitoSobMedidaParaOSeuObjetivo">
 			
@@ -274,15 +227,15 @@
 					<div class="section__column">
 						<p class="p1">O <b><i>iMED</i></b> é o resultado da união das didáticas oral (aula) e escrita (texto) em um único formato: o <u>eletrônico</u>. Os contratantes receberão material acadêmico único, na forma de <u>textos especiais</u>, extremamente completos e detalhados, e ainda assim preservando a didática. Como? Não serão textos quaisquer, pois os escritores – os próprios – estarão presentes dentro do conteúdo eletrônico, dando voz às páginas, em inserções constantes e estrategicamente premeditadas.</p>		
 	
-						<img class="ipad-texto desktop" src="imgs/ipad-medeletro-texto.png" alt="" class="imgImedFeitoSobMedidaParaOSeuObjetivo">
+						<img class="ipad-texto desktop" src="<?php bloginfo('template_directory'); ?>-child/imgs/ipad-medeletro-texto.png" alt="" class="imgImedFeitoSobMedidaParaOSeuObjetivo">
 	
-						<img class="ipad-texto mobile" src="imgs/ipad-medeletro-texto-responsive.png" alt="" class="imgImedFeitoSobMedidaParaOSeuObjetivo">
+						<img class="ipad-texto mobile" src="<?php bloginfo('template_directory'); ?>-child/imgs/ipad-medeletro-texto-responsive.png" alt="" class="imgImedFeitoSobMedidaParaOSeuObjetivo">
 					</div>
 	
 					<div class="section__column">
-						<img class=" devices-comofunciona desktop" src="imgs/mock-tablet-desktop.png" alt="">	
+						<img class=" devices-comofunciona desktop" src="<?php bloginfo('template_directory'); ?>-child/imgs/mock-tablet-desktop.png" alt="">	
 	
-						<img class=" devices-comofunciona mobile" src="imgs/ipad-medeletro-img.png" alt="" class="imgImedFeitoSobMedidaParaOSeuObjetivo">
+						<img class=" devices-comofunciona mobile" src="<?php bloginfo('template_directory'); ?>-child/imgs/ipad-medeletro-img.png" alt="" class="imgImedFeitoSobMedidaParaOSeuObjetivo">
 					</div>
 	
 				</div>
@@ -297,7 +250,7 @@
 						
 					<div id="box__imedFeitoSobMedidaParaOSeuObjetivo1" class="box__imedFeitoSobMedidaParaOSeuObjetivo">
 						<div class="icone">
-							<img src="imgs/icone-doutor.svg" alt="" class="icone__voce">
+							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-doutor.svg" alt="" class="icone__voce">
 						</div>
 						<div class="texto">
 							<p><b>Você</b></p>
@@ -306,7 +259,7 @@
 	
 					<div id="box__imedFeitoSobMedidaParaOSeuObjetivo2" class="box__imedFeitoSobMedidaParaOSeuObjetivo">
 						<div class="icone">
-							<img src="imgs/icone-livro-eletronico.png" alt="" class="icone__livroEletronico">
+							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-livro-eletronico.png" alt="" class="icone__livroEletronico">
 						</div>
 						<div class="texto">
 							<p>O <b>livro eletrônico</b></p>
@@ -316,7 +269,7 @@
 	
 					<div id="box__imedFeitoSobMedidaParaOSeuObjetivo3" class="box__imedFeitoSobMedidaParaOSeuObjetivo">
 						<div class="icone">
-							<img src="imgs/o-escritor-2.svg" alt="" class="icone__oEscritorQueOsConfeccionou">
+							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/o-escritor-2.svg" alt="" class="icone__oEscritorQueOsConfeccionou">
 						</div>
 						<div class="texto">
 							<p><b>O escritor</b> que os<br>confeccionou</p>
@@ -359,7 +312,7 @@
 				
 				<div class="box__informacoesTecnicas">
 					<div class="coluna__imagem">
-						<img src="imgs/icone-moble-desktop-tablet-ipad.png" alt="">
+						<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-moble-desktop-tablet-ipad.png" alt="">
 					</div>
 	
 					<div class="coluna__texto">
@@ -368,14 +321,14 @@
 						  <div class='tabs'>
 							
 							<div class='tab active'>
-								<img src="imgs/icone-windows.svg" alt=""><span class="windows">Windows</span>
+								<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-windows.svg" alt=""><span class="windows">Windows</span>
 							</div>
 						   
 							<div class='tab'>
-								<img src="imgs/icone-macOS.svg" alt=""><span class="macOS">macOS</span>
+								<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-macOS.svg" alt=""><span class="macOS">macOS</span>
 							</div>
 	
-							<div class='tab'><img src="imgs/icone-dispositivosMoveis.svg" alt="">
+							<div class='tab'><img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-dispositivosMoveis.svg" alt="">
 								<span class="dispositivosMoveis">Dispositivos móveis</span>
 							</div>
 						  </div>
@@ -509,6 +462,13 @@
 }).call(this);
 
 </script>
+
+
+
+<?php get_footer(); ?>
+
+
+
 
 
 
