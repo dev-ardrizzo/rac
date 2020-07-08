@@ -32,7 +32,7 @@ get_header(); ?>
 				<div class="chamada__top">
 				
 					<div class="chamada__top--left">
-						RAC
+						R<span class="point">.</span>A<span class="point">.</span>C<span class="point">.</span>
 					</div>
 
 					<div class="chamada__top--right">				
@@ -97,7 +97,7 @@ get_header(); ?>
 						</div>
 						<div class="texto">
 							<span class="large">3 apostilas digitais</span>
-							<p>+ de 200 vídeos entremeados<br>no material</p>
+							<p>+ de 50 vídeos entremeados<br>no material</p>
 						</div>
 					</div>
 	
@@ -106,7 +106,7 @@ get_header(); ?>
 							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-calendario.svg" alt="" class="icone__calendario">
 						</div>
 						<div class="texto">
-							<span class="large">3 apostila DIGITAL</span>
+							<span class="large">1 apostila DIGITAL</span>
 							<p><span class="large">por semana</span><br>(3 semanas)</p>
 						</div>
 					</div>
