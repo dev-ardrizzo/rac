@@ -513,6 +513,8 @@ html {
       display: flex;
       flex-direction: row;
       margin-bottom: 30px;
+      align-items: center;
+    justify-content: center;
   }
   
  .rac-pagina section#section__infosProduto .box__infosProduto .icone {

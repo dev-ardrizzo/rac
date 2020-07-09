@@ -29,30 +29,20 @@ get_header(); ?>
 
 			<div class="chamada">
 
+
+				<div class="chamada__bottom">
+					Formato iMED
+				</div>
+
+
 				<div class="chamada__top">
 				
 					<div class="chamada__top--left">
 						R<span class="point">.</span>A<span class="point">.</span>C<span class="point">.</span>
 					</div>
 
-					<div class="chamada__top--right">				
-					
-						<div class="right__top">				
-							REVISÃO AVANÇADA
-						</div>
-						
-						<div class="right__bottom">				
-							DE <b>CLÍNICA MÉDICA</b>
-						</div>	
-
-					</div>
-
 				</div>
 
-
-				<div class="chamada__bottom">
-					iMED
-				</div>
 
 
 			</div>
@@ -62,7 +52,7 @@ get_header(); ?>
 
 			
 			
-			<h1>A Revisão Avançada é um programa especial, elaborado para aqueles que desejam aumentar ainda mais o seu diferencial. O objetivo é o aprofundamento em temas usualmente recomendados para estudo em casa (pela baixa frequência em provas), mas que vêm ganhando cada vez mais importância, especialmente nos concursos mais recentes. São dois módulos independentes e distintos do INTENSIVÃO.</h1>
+			<h1>A <b>Revisão Avançada de Clínica Médica</b> é um programa especial, elaborado para aqueles que desejam aumentar ainda mais o seu diferencial. O objetivo é o aprofundamento em temas usualmente recomendados para estudo em casa (pela baixa frequência em provas), mas que vêm ganhando cada vez mais importância, especialmente nos concursos mais recentes. É um módulo independente e distinto do INTENSIVÃO.</h1>
 
 			
 			<a href="#section__infosProduto" id="nextSection"><img src="<?php bloginfo('template_directory'); ?>-child/imgs/scroll-mouse-medeletro.gif" alt=""></a>
@@ -101,7 +91,7 @@ get_header(); ?>
 						</div>
 					</div>
 	
-					<div class="box__infosProduto">
+					<!-- <div class="box__infosProduto">
 						<div class="icone">
 							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-calendario.svg" alt="" class="icone__calendario">
 						</div>
@@ -109,11 +99,11 @@ get_header(); ?>
 							<span class="large">1 apostila DIGITAL</span>
 							<p><span class="large">por semana</span><br>(3 semanas)</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 	
-			<p>O conteúdo baixado no dispositivo de cada assinante poderá ser acessado mesmo após o encerramento da distribuição de conteúdo.</p>
+			<p>O texto das apostilas baixadas no dispositivo de cada contratante poderá ser acessado mesmo após o encerramento da distribuição de conteúdo.</p>
 	
 			</div>
 	
@@ -169,18 +159,18 @@ get_header(); ?>
 								<h5>À vista</h5>
 							</div>
 							<div class="texto">
-								<p class="medio">R$368,00</p>
+								<p class="medio">R$ 588,00</p>
 								<p>no boleto bancário</p>
 							</div>
 						</div>
 						<div class="box__valores">
 							<div class="titulo">
-								<h5>Cheque pós datato</h5>
+								<h5>Cheque pós datado</h5>
 							</div>
 							<div class="texto">
 								<p class="medio">R$ 648,00</p>
-								<p>parcela única, datada<br>
-									para 15/02/2020*</p>
+								<p>parcela única, datado<br>
+									para 15/02/2021*</p>
 							</div>
 						</div>
 						<p>*Sujeito a aprovação</p>
@@ -199,7 +189,7 @@ get_header(); ?>
 									preparatório do MEDGRUPO</h5>
 							</div>
 							<div class="texto">
-								<p class="medio">R$ 1.938,00</p>
+								<p class="medio">R$ 588,00</p>
 							</div>
 						</div>
 						<div class="box__valores">
@@ -207,12 +197,12 @@ get_header(); ?>
 								<h5>Novo no MEDGRUPO</h5>
 							</div>
 							<div class="texto">
-								<p class="medio">R$ 2.638,00</p>
+								<p class="medio">R$ 588,00</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<p class="paragrafo">Ao comprar o módulo on-line <i><b>MEDELETRO IMED</b></i>, você estará adquirindo (embora com pagamento parcelado) a <u>COLEÇÃO COMPLETA</u>, que será disponibilizada pelo APP em 11 etapas semanais sequenciais. Após o encerramento, você mantém todo o conteúdo das apostilas digitais já baixadas em seu dispositivo.</p>
+				<p class="paragrafo">Ao comprar o módulo on-line <i><b>R.A.C. iMED</b></i>, você estará adquirindo (embora com pagamento parcelado) a <u>COLEÇÃO COMPLETA</u>, que será disponibilizada pelo APP em 3 etapas semanais sequenciais. Após o encerramento, você mantém todo o conteúdo das apostilas digitais já baixadas em seu dispositivo.</p>
 			</div>
 		</section>	
 	
@@ -404,7 +394,7 @@ get_header(); ?>
 	
 	<div class="center-mobile">
 		<div class="button button--register">
-			<a href="https://medycorp.com.br/medeletro/#/perfil-aluno" target="_blank" class="button__text">inscreva-se</a>
+			<a href="https://medycorp.com.br/intensivao/#/perfil-aluno" target="_blank" class="button__text">inscreva-se</a>
 		</div>
 	</div>
 	

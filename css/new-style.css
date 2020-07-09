@@ -65,28 +65,29 @@ h2, h4 {
     display: flex;
     flex-direction: column;
     color: #004d72;
-    margin-bottom: 20px; }
+    margin-bottom: 40px; }
     .rac-pagina #section__home .chamada .chamada__top {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center; }
       .rac-pagina #section__home .chamada .chamada__top .chamada__top--left {
-        font-size: 58px;
+        font-size: 118px;
         font-weight: 900; }
       .rac-pagina #section__home .chamada .chamada__top .chamada__top--right {
-        font-size: 20px;
+        font-size: 35px;
         margin-left: 10px;
         font-weight: 400; }
         .rac-pagina #section__home .chamada .chamada__top .chamada__top--right b {
           font-weight: 900; }
     .rac-pagina #section__home .chamada .chamada__bottom {
-      font-size: 144px;
+      font-size: 34px;
       font-weight: 900;
-      line-height: 119px;
+      line-height: 25px;
       justify-content: center;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      opacity: 0.6; }
   .rac-pagina #section__home #nextSection {
     filter: invert(1); }
 .rac-pagina #section__infosProduto img {
